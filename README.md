@@ -15,7 +15,7 @@
 **While being:**
 
 - Tiny (~3.5KB minified+gzipped; no dependencies).
-- Tested (100% coverage*).
+- Tested (100% coverage on Chromium, Firefox and Webkit (*)).
 - Fully typed.
 
 **TOC**

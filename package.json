@@ -5,7 +5,7 @@
   "scripts": {
     "build": "parcel build --no-cache",
     "test:watch": "web-test-runner --node-resolve --watch --coverage",
-    "test": "web-test-runner --node-resolve --coverage"
+    "test": "web-test-runner --node-resolve --coverage --playwright --browsers chromium firefox webkit"
   },
   "author": "Jan Benscheid",
   "license": "MIT",
@@ -28,6 +28,7 @@
     "@types/sinon": "^17.0.3",
     "@web/dev-server-esbuild": "^1.0.2",
     "@web/test-runner": "^0.18.1",
+    "@web/test-runner-playwright": "^0.11.0",
     "gts": "^5.0.1",
     "parcel": "^2.9.3",
     "sinon": "^17.0.1"
